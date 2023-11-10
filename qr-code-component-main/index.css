@@ -23,16 +23,17 @@
   }
 
 body {
+    background-color: hsl(212, 45%, 89%);
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
 }
 
 main {
-    background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-height: 600px;
 }
 
 h1 {
