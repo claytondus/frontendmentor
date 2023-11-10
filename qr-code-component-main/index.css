@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+body {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.0rem;
+    color: hsl(220, 15%, 55%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.widget {
+    background-color: white;
+    border-radius: 1.2rem;
+    width: 320px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 16px;
+}
+
+.qr-code {
+    border-radius: 0.75rem;
+}
