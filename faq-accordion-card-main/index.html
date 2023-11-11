@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        position: fixed;
+        transform: translateX(-50%);
+        left: 50%;
+        bottom: 0;
+        font-size: 11px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <div class="illustration">
+          <picture>
+            <source
+              media="(min-width: 640px)"
+              srcset="images/illustration-woman-online-desktop.svg"
+            />
+            <img
+              class="illustration-img"
+              alt="woman online"
+              src="images/illustration-woman-online-mobile.svg"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width: 640px)"
+              srcset="images/bg-pattern-desktop.svg"
+            />
+            <img
+              class="illustration-bg"
+              alt="woman online"
+              src="images/bg-pattern-mobile.svg"
+            />
+          </picture>
+        </div>
+
+        <h1>FAQ</h1>
+
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="cb1"
+              class="accordion-check"
+              aria-hidden="true"
+            />
+            <label for="cb1" class="accordion-label"
+              ><span class="accordion-heading"
+                >How many team members can I invite?</span
+              >
+              <span class="accordion-chevron"></span
+            ></label>
+            <div class="accordion-text">
+              <p>
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="cb2"
+              class="accordion-check"
+              aria-hidden="true"
+            />
+            <label for="cb2" class="accordion-label"
+              ><span class="accordion-heading"
+                >What is the maximum file upload size?</span
+              >
+              <span class="accordion-chevron"></span
+            ></label>
+            <div class="accordion-text">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </div>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="cb3"
+              class="accordion-check"
+              aria-hidden="true"
+            />
+            <label for="cb3" class="accordion-label">
+              <span class="accordion-heading">How do I reset my password?</span>
+              <span class="accordion-chevron"></span
+            ></label>
+            <div class="accordion-text">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </div>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="cb4"
+              class="accordion-check"
+              aria-hidden="true"
+            />
+            <label for="cb4" class="accordion-label">
+              <span class="accordion-heading"
+                >Can I cancel my subscription?</span
+              >
+              <span class="accordion-chevron"></span
+            ></label>
+            <div class="accordion-text">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </div>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="cb5"
+              class="accordion-check"
+              aria-hidden="true"
+            />
+            <label for="cb5" class="accordion-label">
+              <span class="accordion-heading"
+                >Do you provide additional support?</span
+              >
+              <span class="accordion-chevron"></span>
+            </label>
+            <div class="accordion-text">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </div>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">claytondus</a>.
+      </div>
+    </footer>
+  </body>
+</html>
