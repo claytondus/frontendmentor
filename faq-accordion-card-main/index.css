@@ -99,8 +99,15 @@ h6 {
   margin: 0 auto;
 }
 
-h1 {
+.illustration-box-desktop {
+  display: none;
+}
+
+.faq {
   margin-top: 100px;
+}
+
+h1 {
   margin-bottom: 20px;
   font-size: 2rem;
   font-weight: 700;
@@ -136,9 +143,6 @@ li {
   padding-bottom: 12px;
 }
 
-label {
-}
-
 .accordion-check {
   display: none;
 }
@@ -146,6 +150,9 @@ label {
 .accordion-text {
   height: 0;
   overflow: hidden;
+  color: var(--dark-gray-blue);
+  font-size: 0.9rem;
+  margin-right: 12px;
 }
 
 .accordion-label {
@@ -154,6 +161,7 @@ label {
 
 .accordion-heading {
   flex-grow: 7;
+  font-size: 0.9rem;
 }
 
 .accordion-check {
@@ -184,4 +192,49 @@ label {
 
 .accordion-check:checked ~ .accordion-label .accordion-heading {
   font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  article {
+    max-width: 800px;
+    margin: auto 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .illustration {
+    width: 50%;
+  }
+
+  .illustration-img {
+    left: -150px;
+    top: -150px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .illustration-bg {
+    left: -150px;
+    top: -150px;
+    width: 1000px;
+  }
+
+  .illustration-box-desktop {
+    display: block;
+    position: absolute;
+    left: -110px;
+    top: -60px;
+  }
+
+  .faq {
+    width: 50%;
+    margin-top: 40px;
+    padding-right: 10%;
+    padding-bottom: 40px;
+  }
+
+  h1 {
+    text-align: left;
+  }
 }
