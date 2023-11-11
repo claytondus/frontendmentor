@@ -1,0 +1,61 @@
+{
+  "name": "workit-landing-page",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "workit-landing-page",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/workit-landing-page"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "workit-landing-page"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "workit-landing-page:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "workit-landing-page:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "workit-landing-page:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nx/next:export",
+      "options": {
+        "buildTarget": "workit-landing-page:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "workit-landing-page/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["workit-landing-page/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}

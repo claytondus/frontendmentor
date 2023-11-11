@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@font-face {
+  font-family: 'Fraunces';
+  src: url('/fonts/Fraunces_144pt-SemiBold.ttf');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
