@@ -2,13 +2,13 @@ export function Index() {
   return (
     <>
       {/*absolute bg-dark-purple rounded-b-hero left-[-40%] h-[481px] w-[180%] -z-40*/}
-      <header className={'relative'}>
+      <header className={'relative w-full overflow-x-clip '}>
         <div
           className={
-            'absolute bg-dark-purple rounded-b-hero left-[-40%] w-[180%] h-full -z-40'
+            'absolute bg-dark-purple rounded-b-hero left-[-50%] w-[200%] h-full -z-40 '
           }
         ></div>
-        <section className={'flex w-screen'}>
+        <section className={'flex flex-wrap'}>
           <img
             alt={'workit logo'}
             src={'/images/logo-light.svg'}
@@ -26,7 +26,7 @@ export function Index() {
             Apply for access
           </a>
         </section>
-        <section className={'mt-8 w-screen text-center -mb-8'}>
+        <section className={'mt-8 text-center -mb-8'}>
           <h1
             className={
               'font-serif text-white text-5xl font-semibold mx-auto max-w-xs'
@@ -56,11 +56,11 @@ export function Index() {
           />
         </section>
       </header>
-      <main className={'relative'}>
-        <section>
+      <main>
+        <section className={'relative w-full overflow-x-hidden'}>
           <div
             className={
-              'absolute bg-ghost-white rounded-b-hero left-[-40%] w-[180%] h-full -z-50'
+              'absolute bg-ghost-white rounded-b-hero left-[-50%] w-[200%] h-full -z-50'
             }
           ></div>
           <div className={'h-48'}></div>
