@@ -9,19 +9,19 @@ export function Index() {
           }
         ></div>
         <img
-          src={'/images/bg-pattern-1.svg'}
+          src={'images/bg-pattern-1.svg'}
           alt={''}
           className={'hidden md:block absolute top-40 -left-56 lg:-left-32'}
         />
         <img
-          src={'/images/bg-pattern-2.svg'}
+          src={'images/bg-pattern-2.svg'}
           alt={''}
           className={'hidden md:block absolute top-64 -right-20 lg:-right-12'}
         />
         <section className={'flex flex-wrap'}>
           <img
             alt={'workit logo'}
-            src={'/images/logo-light.svg'}
+            src={'images/logo-light.svg'}
             width={96}
             height={24}
             className={'mx-4 my-6 flex-none md:mx-8 lg:mx-32'}
@@ -60,7 +60,7 @@ export function Index() {
             Learn more
           </button>
           <img
-            src={'/images/image-hero.webp'}
+            src={'images/image-hero.webp'}
             alt={'phone with data app'}
             className={
               'mx-auto translate-y-24 max-w-xs md:max-w-lg md:translate-y-32 lg:max-w-2xl lg:translate-y-36'
@@ -179,7 +179,7 @@ export function Index() {
             }
           >
             <img
-              src={'/images/image-founder.webp'}
+              src={'images/image-founder.webp'}
               alt={'founder'}
               className={
                 'absolute left-0 right-0 -top-24 z-0 max-w-xs mx-auto md:ml-8 lg:-top-8 lg:ml-16'
@@ -208,7 +208,7 @@ export function Index() {
               </button>
             </div>
             <img
-              src={'/images/bg-pattern-3.svg'}
+              src={'images/bg-pattern-3.svg'}
               alt={''}
               className={
                 'hidden md:block absolute top-80 right-10 z-10 lg:top-64 lg:right-24'
@@ -219,14 +219,14 @@ export function Index() {
       </main>
       <footer className={'mt-48 md:mb-24'}>
         <img
-          src={'/images/logo-dark.svg'}
+          src={'images/logo-dark.svg'}
           alt={'workit logo'}
           className={'h-full mt-24 mx-auto'}
         />
         <div className={'flex align-center justify-center my-12'}>
           <a href={'#'}>
             <img
-              src={'/images/icon-facebook.svg'}
+              src={'images/icon-facebook.svg'}
               alt={'facebook icon'}
               width={'16'}
               height={'16'}
@@ -235,7 +235,7 @@ export function Index() {
           </a>
           <a href={'#'}>
             <img
-              src={'/images/icon-twitter.svg'}
+              src={'images/icon-twitter.svg'}
               alt={'twitter icon'}
               width={'16'}
               height={'16'}
@@ -244,7 +244,7 @@ export function Index() {
           </a>
           <a href={'#'}>
             <img
-              src={'/images/icon-instagram.svg'}
+              src={'images/icon-instagram.svg'}
               alt={'instagram icon'}
               width={'16'}
               height={'16'}
