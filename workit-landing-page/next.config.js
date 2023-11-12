@@ -13,6 +13,7 @@ const nextConfig = {
     svgr: false,
   },
   output: 'export',
+  basePath: '/frontendmentor',
 };
 
 const plugins = [
