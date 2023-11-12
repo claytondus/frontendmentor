@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export function Index() {
   return (
     <>
@@ -10,7 +8,7 @@ export function Index() {
             'absolute bg-dark-purple rounded-b-hero left-[-50%] w-[200%] h-full -z-40 md:left-[-25%] md:w-[150%] lg:left-[-12.5%] lg:w-[125%]'
           }
         ></div>
-        <Image
+        <img
           src={'/frontendmentor/images/bg-pattern-1.svg'}
           alt={''}
           width={341}
@@ -20,14 +18,16 @@ export function Index() {
         <img
           src={'/frontendmentor/images/bg-pattern-2.svg'}
           alt={''}
+          width={174}
+          height={181}
           className={'hidden md:block absolute top-64 -right-20 lg:-right-12'}
         />
         <section className={'flex flex-wrap'}>
           <img
             alt={'workit logo'}
             src={'/frontendmentor/images/logo-light.svg'}
-            width={96}
-            height={24}
+            width={97}
+            height={26}
             className={'mx-4 my-6 flex-none md:mx-8 lg:mx-32'}
           />
           <div className={'grow'} />
@@ -66,6 +66,8 @@ export function Index() {
           <img
             src={'/frontendmentor/images/image-hero.webp'}
             alt={'phone with data app'}
+            width={1534}
+            height={882}
             className={
               'mx-auto translate-y-24 max-w-xs md:max-w-lg md:translate-y-32 lg:max-w-2xl lg:translate-y-36'
             }
@@ -185,6 +187,8 @@ export function Index() {
             <img
               src={'/frontendmentor/images/image-founder.webp'}
               alt={'founder'}
+              width={954}
+              height={954}
               className={
                 'absolute left-0 right-0 -top-24 z-0 max-w-xs mx-auto md:ml-8 lg:-top-8 lg:ml-16'
               }
@@ -214,6 +218,8 @@ export function Index() {
             <img
               src={'/frontendmentor/images/bg-pattern-3.svg'}
               alt={''}
+              width={221}
+              height={212}
               className={
                 'hidden md:block absolute top-80 right-10 z-10 lg:top-64 lg:right-24'
               }
@@ -225,6 +231,8 @@ export function Index() {
         <img
           src={'/frontendmentor/images/logo-dark.svg'}
           alt={'workit logo'}
+          width={97}
+          height={26}
           className={'h-full mt-24 mx-auto'}
         />
         <div className={'flex align-center justify-center my-12'}>
