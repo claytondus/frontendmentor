@@ -67,35 +67,35 @@ export function Index() {
           ></div>
           <div className={'h-48'}></div>
           <div
-            className={'flex flex-col justify-center items-center md:flex-row'}
+            className={'flex flex-col justify-center items-center md:flex-row md:w-[80%] md:mx-auto'}
           >
             <div
               className={
-                'rounded-full border border-1 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto '
+                'rounded-full border border-1 basis-12 shrink-0 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto'
               }
             >
               1
             </div>
-            <div className={'md:mx-auto'}>
+            <div className={'md:grow'}>
               <h2
                 className={
-                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6 md:text-left md:mx-auto'
+                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6 md:text-left md:ml-8'
                 }
               >
                 Actionable insights
               </h2>
               <p
-                className={'text-center text-davys-grey mx-4 mt-4 md:text-left'}
+                className={'text-center text-davys-grey mx-4 mt-4 md:text-left md:ml-8'}
               >
                 Optimize your products, improve customer satisfaction and stay
                 ahead of the competition with our product data analytics.
               </p>
             </div>
           </div>
-          <div className={'flex flex-col items-center mt-10 md:flex-row'}>
+          <div className={'flex flex-col items-center mt-10 md:flex-row md:w-[80%] md:mx-auto'}>
             <div
               className={
-                'rounded-full border border-1 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto'
+                'rounded-full border border-1 basis-12 shrink-0 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto'
               }
             >
               2
@@ -103,22 +103,22 @@ export function Index() {
             <div>
               <h2
                 className={
-                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6'
+                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6 md:text-left md:ml-8'
                 }
               >
                 Data-driven decisions
               </h2>
-              <p className={'text-center text-davys-grey mx-4 mt-4'}>
+              <p className={'text-center text-davys-grey mx-4 mt-4 md:text-left md:ml-8'}>
                 Make data-driven decisions with our product data analytics. Our
                 AI-generated reports help you unlock insights hidden in your
                 product data.
               </p>
             </div>
           </div>
-          <div className={'flex flex-col items-center mt-10 md:flex-row'}>
+          <div className={'flex flex-col items-center mt-10 md:flex-row md:w-[80%] md:mx-auto'}>
             <div
               className={
-                'rounded-full border border-1 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto'
+                'rounded-full border border-1 basis-12 shrink-0 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto'
               }
             >
               3
@@ -126,29 +126,30 @@ export function Index() {
             <div>
               <h2
                 className={
-                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6'
+                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6 md:text-left md:ml-8'
                 }
               >
                 Always affordable
               </h2>
-              <p className={'text-center text-davys-grey mx-4 mt-4 mb-20'}>
+              <p className={'text-center text-davys-grey mx-4 mt-4 md:text-left md:ml-8'}>
                 Always affordable pricing that scales with your business. Get
                 top-quality product data analytics services without hidden costs
                 or unexpected fees.
               </p>
             </div>
           </div>
+          <div className={'h-20'}></div>
         </section>
-        <section className={'mt-20'}>
-          <div className={'flex items-center justify-center flex-col'}>
+        <section className={'mt-48'}>
+          <div className={'relative max-w-2xl mx-auto h-80'}>
             <img
               src={'/images/image-founder.webp'}
               alt={'founder'}
-              className={'max-w-xs'}
+              className={'absolute left-0 right-0 -top-24 z-0 max-w-xs mx-auto md:mx-0 md:-left-12'}
             />
             <div
               className={
-                'bg-dark-purple text-white text-center mx-3 w-xs p-8 -mt-16'
+                'absolute top-40 bg-dark-purple text-white text-center mx-3 w-xs p-8 z-10 md:max-w-lg md:text-left md:top-20 md:right-4 md:p-12'
               }
             >
               <h3 className={'font-serif text-4xl'}>Be the first to test</h3>
@@ -169,7 +170,7 @@ export function Index() {
           </div>
         </section>
       </main>
-      <footer>
+      <footer className={'mt-48 md:mb-24'}>
         <img
           src={'/images/logo-dark.svg'}
           alt={'workit logo'}
