@@ -14,13 +14,13 @@ export function Index() {
             src={'/images/logo-light.svg'}
             width={96}
             height={24}
-            className={'mx-4 my-6 flex-none'}
+            className={'mx-4 my-6 flex-none md:mx-8'}
           />
           <div className={'grow'} />
           <a
             href={'#'}
             className={
-              'flex-none text-base leading-8 text-white tracking-tight text-right font-bold my-6 mx-4 hover:text-eucalyptus underline underline-offset-8 decoration-[3px] decoration-eucalyptus'
+              'flex-none text-base leading-8 text-white tracking-tight text-right font-bold my-6 mx-4 md:mx-8 hover:text-eucalyptus underline underline-offset-8 decoration-[3px] decoration-eucalyptus'
             }
           >
             Apply for access
@@ -44,7 +44,7 @@ export function Index() {
           </h1>
           <button
             className={
-              'bg-eucalyptus text-center font-bold mt-8 -mb-4 py-4 px-8 hover:bg-transparent border-2 hover:text-eucalyptus border-eucalyptus'
+              'bg-eucalyptus text-center font-bold mt-8 -mb-4 md:-mb-14 py-4 px-8 hover:bg-transparent border-2 hover:text-eucalyptus border-eucalyptus'
             }
           >
             Learn more
@@ -52,7 +52,9 @@ export function Index() {
           <img
             src={'/images/image-hero.webp'}
             alt={'phone with data app'}
-            className={'mx-auto translate-y-24 max-w-xs '}
+            className={
+              'mx-auto translate-y-24 max-w-xs md:max-w-lg md:translate-y-32'
+            }
           />
         </section>
       </header>
@@ -64,42 +66,36 @@ export function Index() {
             }
           ></div>
           <div className={'h-48'}></div>
-          <div className={'flex flex-col items-center'}>
+          <div
+            className={'flex flex-col justify-center items-center md:flex-row'}
+          >
             <div
               className={
-                'absolute rounded-full border border-1 w-16 h-16 mx-auto'
-              }
-            ></div>
-            <div
-              className={
-                'pt-4 font-serif font-extrabold text-dark-purple text-3xl mx-auto'
+                'rounded-full border border-1 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto '
               }
             >
               1
             </div>
-            <div>
+            <div className={'md:mx-auto'}>
               <h2
                 className={
-                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6'
+                  'font-serif font-extrabold text-dark-purple text-4xl text-center mt-6 md:text-left md:mx-auto'
                 }
               >
                 Actionable insights
               </h2>
-              <p className={'text-center text-davys-grey mx-4 mt-4'}>
+              <p
+                className={'text-center text-davys-grey mx-4 mt-4 md:text-left'}
+              >
                 Optimize your products, improve customer satisfaction and stay
                 ahead of the competition with our product data analytics.
               </p>
             </div>
           </div>
-          <div className={'flex flex-col items-center mt-10'}>
+          <div className={'flex flex-col items-center mt-10 md:flex-row'}>
             <div
               className={
-                'absolute rounded-full border border-1 w-16 h-16 mx-auto'
-              }
-            ></div>
-            <div
-              className={
-                'pt-4 font-serif font-extrabold text-dark-purple text-3xl mx-auto'
+                'rounded-full border border-1 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto'
               }
             >
               2
@@ -119,15 +115,10 @@ export function Index() {
               </p>
             </div>
           </div>
-          <div className={'flex flex-col items-center mt-10'}>
+          <div className={'flex flex-col items-center mt-10 md:flex-row'}>
             <div
               className={
-                'absolute rounded-full border border-1 w-16 h-16 mx-auto'
-              }
-            ></div>
-            <div
-              className={
-                'pt-4 font-serif font-extrabold text-dark-purple text-3xl mx-auto'
+                'rounded-full border border-1 w-12 h-12 leading-[3rem] font-serif font-extrabold text-dark-purple text-2xl text-center align-middle mx-auto'
               }
             >
               3
