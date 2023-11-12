@@ -78,7 +78,7 @@ export function Index() {
         <section className={'relative w-full overflow-x-hidden'}>
           <div
             className={
-              'absolute bg-eucalyptus rounded-b-hero left-[-50%] w-[200%] h-full -z-50 md:left-[-25%] md:w-[150%] lg:left-[-12.5%] lg:w-[125%]'
+              'absolute bg-ghost-white rounded-b-hero left-[-50%] w-[200%] h-full -z-50 md:left-[-25%] md:w-[150%] lg:left-[-12.5%] lg:w-[125%]'
             }
           ></div>
           <div className={'h-48 lg:h-72'}></div>
