@@ -8,6 +8,18 @@ export function Index() {
             'absolute bg-dark-purple rounded-b-hero left-[-50%] w-[200%] h-full -z-40 '
           }
         ></div>
+        <img
+            src={'/images/bg-pattern-1.svg'}
+            alt={''}
+            className={
+          'hidden md:block absolute top-40 -left-56'
+        }/>
+        <img
+            src={'/images/bg-pattern-2.svg'}
+            alt={''}
+            className={
+              'hidden md:block absolute top-64 -right-20'
+            }/>
         <section className={'flex flex-wrap'}>
           <img
             alt={'workit logo'}
@@ -141,15 +153,15 @@ export function Index() {
           <div className={'h-20'}></div>
         </section>
         <section className={'mt-48'}>
-          <div className={'relative max-w-2xl mx-auto h-80'}>
+          <div className={'relative max-w-2xl mx-auto h-80 md:max-w-3xl'}>
             <img
               src={'/images/image-founder.webp'}
               alt={'founder'}
-              className={'absolute left-0 right-0 -top-24 z-0 max-w-xs mx-auto md:mx-0 md:-left-12'}
+              className={'absolute left-0 right-0 -top-24 z-0 max-w-xs mx-auto md:ml-8 '}
             />
             <div
               className={
-                'absolute top-40 bg-dark-purple text-white text-center mx-3 w-xs p-8 z-10 md:max-w-lg md:text-left md:top-20 md:right-4 md:p-12'
+                'absolute top-40 bg-dark-purple text-white text-center mx-3 w-xs p-8 z-10 md:max-w-lg md:text-left md:top-20 md:right-0 md:mr-8 md:p-12'
               }
             >
               <h3 className={'font-serif text-4xl'}>Be the first to test</h3>
@@ -167,6 +179,12 @@ export function Index() {
                 Apply for access
               </button>
             </div>
+            <img
+                src={'/images/bg-pattern-3.svg'}
+                alt={''}
+                className={
+                  'hidden md:block absolute top-80 right-10 z-10'
+                }/>
           </div>
         </section>
       </main>
